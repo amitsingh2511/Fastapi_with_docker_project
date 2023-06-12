@@ -33,7 +33,7 @@ target_metadata = SQLModel.metadata
 def get_url():
 
     ## local url
-    url = "postgresql+asyncpg://postgres:8969037429@localhost:5432/customer_table"
+    url = "postgresql+asyncpg://postgres:password@host/customer_table"
 
     return url
 
